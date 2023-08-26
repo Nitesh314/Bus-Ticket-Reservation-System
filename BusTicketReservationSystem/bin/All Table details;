@@ -1,0 +1,66 @@
+
+
+TABLE OF BUS
+
+
+Create table Bus(
+ busNo int primary key,
+ BName varchar(20),
+ routeFrom varchar(20),
+ routeTo varchar(20),
+ bType varchar(5),
+ departure DATETIME,
+ arrival DATETIME,
+ totalSeats int,
+ availSeats int,
+ fare int  
+);
+
+
+
+TABLE OF CUSTOMER
+
+Create table Customer(
+ cusId int primary key,
+ username varchar(20),
+ password varchar(20),
+ firstName varchar(20),
+ lastName varchar(20),
+ address varchar(20),
+ mobile varchar(12)
+ );
+ 
+ 
+ //establish many to many relation ship and create one linking table
+ 
+ // create linking table Booking 
+ 
+ Create table Booking(
+  bId int primary key,
+  cusId int,
+  busNo int,
+  seatFrom int,
+  seatTo int,
+  status TINYINT(1),
+  foreign key(busNo) references Bus(busNo),
+  foreign key(CusId) references Customer(CusId)
+  );
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
