@@ -2,43 +2,47 @@
 
 # Bus Ticket Reservation System
 
-> A bus ticket reservation system is an java application designed to provide customers with a personalized easy-to-utilize user experience for booking and purchasing tickets online. It stores customers' personal data records, scheduled routes, frequent trips, drop points, and other information.
+> A bus ticket reservation system is a Java application designed to provide customers with a personalized easy-to-utilize user experience for booking and purchasing tickets online. It stores customers' personal data records, scheduled routes, frequent trips, drop points, and other information.
 
-> Bus ticket reservation system is a console based application.
+> The bus ticket reservation system is a console-based application.
 
-> Build Bus ticket reservation system application during the construct week at [Masai School](https://masaischool.com/). Completed the project within five days.
+> Build a Bus ticket reservation system application during the construct week at [Masai School](https://masaischool.com/). Completed the project within five days.
 
-> Secure 1st position among all individual projects [Click here](https://drive.google.com/drive/folders/1irT1biLGc3q1suaLxKJ8lX1nIGXz6nvN)
 
-# 👉 [Click here](https://drive.google.com/file/d/1jlyVHpzDhLKQOJf6ulayLUYJ4bejyv5B/view?usp=sharing) to go through detail explanation of this application 
+# 👉 [Click here](https://drive.google.com/file/d/1wTYLMO13PFRm8zgxrgt7nrl8mS202pFS/view?usp=sharing) to go through detail explanation of this application 
 
 # Features
 
-- Administrator can login his username and password
+- The administrator can login his username and password
 - Administrator can provide details like Bus Name, Bus Route, Bus Type –AC/non-AC, seats, departure time and arrival time
 - Administrator can provide the confirmation of the seat to the Customer
+- The administrator can check how many bookings have been made by the customer
 - Customer can register by giving all the details
 - Customer can login his username and password
-- Customer can book ticket by selecting Source and destination
+- Customer can get CustomerId provided by Administrator
+- Customer can book the ticket by selecting Source and destination
 - Customer can cancel ticket
+- Customer can check his ticket status
+- Customer can check the availability of the bus
+- 
 
 # Technology used 
 
 - Java
 - MySQL
 - JDBC
-- spring tool suite eclipse
+- STS4
 - Git & GitHub
 
 # Lessons Learned
 
-- Gain excessive knowledge on application of Java, JDBC and MySQL.
+- Gain excessive knowledge of applications of Java, JDBC, and MySQL.
 - Enjoyed the process of learning and creating the application.
 
 # Overview of my work
 
 ## **ER Diagram**
-*Customer and Bus has many to many relationship*
+*Customer and Bus have many too many relationships*
 </br>
 *Booking table as linking between Customer and Bus*
 </br>
@@ -74,10 +78,10 @@
 
 # Feedback
 > Valuable feedback will be appreciated.
-> You can reach out to me via below medium.
+> You can reach out to me via the below medium.
 
-- [Email](mayurisamanta@gmail.com)
-- [Linkedin](https://www.linkedin.com/in/mayuri-samanta/)
+- [Email](nsshukla314@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/nitesh-shukla-b1b47623b/)
 # Contributor
-#### Mayuri Samanta
->[GitHub](https://github.com/mayurisamanta)
+#### Nitesh Shukla
+>[GitHub](https://github.com/Nitesh314)
