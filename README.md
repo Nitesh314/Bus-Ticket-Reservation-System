@@ -1,4 +1,4 @@
-![Logo](https://github.com/NiteshShukla/zealous-price-4318/blob/main/BusTicketReservationSystem/Assets/logo.png?raw=true)
+![Logo](https://github.com/mayurisamanta/zealous-price-4318/blob/main/BusTicketReservationSystem/Assets/logo.png?raw=true)
 
 # Bus Ticket Reservation System
 
